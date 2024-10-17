@@ -1,0 +1,109 @@
+.claimHistory {
+  
+  text-align: left;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+  color: black;
+  margin-bottom: 20px; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px; 
+  text-align: left;
+}
+
+th {
+  background-color: #9043dcc2;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #9043dcc2;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.2em; 
+  }
+
+  table {
+    font-size: 0.9em; 
+  }
+
+  th,
+  td {
+    padding: 10px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .claimHistory {
+    padding: 10px; 
+  }
+
+  h2 {
+    font-size: 1em; 
+  }
+
+  table {
+    font-size: 0.8em; 
+  }
+
+  th,
+  td {
+    padding: 8px; 
+  }
+}
+
+@media (max-width: 320px) {
+  th,
+  td {
+    font-size: 0.7em; 
+  }
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color:#9043dcc2;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination button:disabled {
+  background-color:black;
+  cursor: not-allowed;
+}
+
+.pagination .active {
+  background-color: #9043dcc2; 
+}
+

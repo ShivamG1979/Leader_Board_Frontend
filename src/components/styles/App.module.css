@@ -1,0 +1,23 @@
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+
+  }
+  
+  h1 {
+    color:white;
+    margin-bottom: 20px;
+  }
+  
+  .latest-claim {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #28A745;
+    border: 1px solid #28A745;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
